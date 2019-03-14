@@ -1,8 +1,8 @@
 {
   "name": "insight-ui",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the ravencoin network and build your own services with it.",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the raptoreum network and build your own services with it.",
   "version": "1.0.3",
-  "repository": "git://github.com/underdarkskies/insight-ui.git",
+  "repository": "git://github.com/Raptor3um/insight-ui.git",
   "contributors": [
     {
       "name": "Under",
@@ -13,19 +13,19 @@
     "build": "bower install && grunt compile"
   },
   "bugs": {
-    "url": "https://github.com/underdarkskies/insight-ui/issues"
+    "url": "https://github.com/Raptor3um/insight-ui/issues"
   },
-  "homepage": "https://github.com/underdarkskies/insight-ui",
+  "homepage": "https://github.com/Raptor3um/insight-ui",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "ravencoin",
-    "ravencore",
+    "raptoreum",
+    "rtmcore",
     "front-end"
   ],
-  "ravencoreNode": "ravencore-node",
+  "rtmcoreNode": "rtmcore-node",
   "dependencies": {},
   "devDependencies": {
     "bower": "1.8.2",

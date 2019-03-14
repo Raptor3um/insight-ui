@@ -164,11 +164,11 @@ msgstr "Keine Verbindung zum Internet möglich, bitte Zugangsdaten prüfen."
 
 #: public/views/includes/connection.html
 msgid ""
-"Can't connect to ravend to get live updates from the p2p network. (Tried "
-"connecting to ravend at {{host}}:{{port}} and failed.)"
+"Can't connect to raptoreumd to get live updates from the p2p network. (Tried "
+"connecting to raptoreumd at {{host}}:{{port}} and failed.)"
 msgstr ""
-"Es ist nicht möglich mit Ravencoind zu verbinden um live Aktualisierungen "
-"vom P2P Netzwerk zu erhalten. (Verbindungsversuch zu ravend an {{host}}:"
+"Es ist nicht möglich mit Raptoreumd zu verbinden um live Aktualisierungen "
+"vom P2P Netzwerk zu erhalten. (Verbindungsversuch zu raptoreumd an {{host}}:"
 "{{port}} ist fehlgeschlagen.)"
 
 #: public/views/rich_list.html
@@ -200,8 +200,8 @@ msgid "Connections to other nodes"
 msgstr "Verbindungen zu Nodes"
 
 #: public/views/status.html
-msgid "Current Blockchain Tip (ravencore)"
-msgstr "Aktueller Blockchain Tipp (Ravencore)"
+msgid "Current Blockchain Tip (rtmcore)"
+msgstr "Aktueller Blockchain Tipp (rtmcore)"
 
 #: public/views/statistics.html
 msgid "Current Network Hashrate"
@@ -309,8 +309,8 @@ msgid "Last Block"
 msgstr "Letzter Block"
 
 #: public/views/status.html
-msgid "Last Block Hash (ravend)"
-msgstr "Letzter Blockhasch (ravend)"
+msgid "Last Block Hash (raptoreumd)"
+msgstr "Letzter Blockhasch (raptoreumd)"
 
 #: public/views/block_list.html
 msgid "Lastest block from date"
@@ -478,40 +478,40 @@ msgid "Rank"
 msgstr "Rang"
 
 #: public/views/charts.html
-msgid "Ravencoin Circulation"
-msgstr "Ravencoin-Zirkulation"
+msgid "Raptoreum Circulation"
+msgstr "Raptoreum-Zirkulation"
 
 #: public/views/messages_verify.html
-msgid "Ravencoin comes with a way of signing arbitrary messages."
-msgstr "Ravencoin bietet eine Möglichkeit, beliebige Nachrichten zu signieren."
+msgid "Raptoreum comes with a way of signing arbitrary messages."
+msgstr "Raptoreum bietet eine Möglichkeit, beliebige Nachrichten zu signieren."
 
 #: public/views/index.html
-msgid "Ravencoin Community"
-msgstr "Ravencoin Gemeinschaft"
+msgid "Raptoreum Community"
+msgstr "Raptoreum Gemeinschaft"
 
 #: public/views/rich_list.html
-msgid "Ravencoin Distribution"
-msgstr "Ravencoin Verteilung"
+msgid "Raptoreum Distribution"
+msgstr "Raptoreum Verteilung"
 
 #: public/views/statistics.html
-msgid "Ravencoin Mined:"
-msgstr "Ravencoin Minen:"
+msgid "Raptoreum Mined:"
+msgstr "Raptoreum Minen:"
 
 #: public/views/pools.html
-msgid "Ravencoin Pools"
-msgstr "Ravencoin-Pools"
+msgid "Raptoreum Pools"
+msgstr "Raptoreum-Pools"
 
 #: public/views/statistics.html
-msgid "Ravencoin Pools Stats"
-msgstr "Ravencoin-Pool-Statistiken"
+msgid "Raptoreum Pools Stats"
+msgstr "Raptoreum-Pool-Statistiken"
 
 #: public/views/statistics.html
-msgid "Ravencoin Statistics for the last 24 hours"
-msgstr "Ravencoin Statistiken für die letzten 24 Stunden"
+msgid "Raptoreum Statistics for the last 24 hours"
+msgstr "Raptoreum Statistiken für die letzten 24 Stunden"
 
 #: public/views/index.html
-msgid "Ravencore"
-msgstr "Ravencore"
+msgid "rtmcore"
+msgstr "rtmcore"
 
 #: public/views/transaction_sendraw.html
 msgid "Raw transaction data"
@@ -616,8 +616,8 @@ msgid "Synced Blocks"
 msgstr "Syncronisierte Blöcke"
 
 #: public/views/charts.html
-msgid "The current supply of Ravencoin on the network."
-msgstr "Die aktuelle Versorgung von Ravencoin im Netzwerk."
+msgid "The current supply of Raptoreum on the network."
+msgstr "Die aktuelle Versorgung von Raptoreum im Netzwerk."
 
 #: public/views/dummy-translations.html
 msgid "The daily average of fees paid to miners per transaction."
@@ -652,18 +652,18 @@ msgstr "Es gibt keine Transaktionen zu dieser Adressse."
 #: public/views/transaction_sendraw.html
 msgid ""
 "This form can be used to broadcast a raw transaction in hex format over\n"
-"        the Ravencoin network."
+"        the Raptoreum network."
 msgstr ""
 "Dieses Formular kann verwendet werden, um eine unbearbeitete Transaktion\n"
-"        im Hex-Format zu übertragen das Ravencoin-Netzwerk."
+"        im Hex-Format zu übertragen das Raptoreum-Netzwerk."
 
 #: public/views/messages_verify.html
 msgid ""
 "This form can be used to verify that a message comes from\n"
-"        a specific Ravencoin address."
+"        a specific Raptoreum address."
 msgstr ""
 "Dieses Formular kann verwendet werden, um zu überprüfen, ob\n"
-"        eine Nachricht stammt eine spezifische Ravencoin-Adresse."
+"        eine Nachricht stammt eine spezifische Raptoreum-Adresse."
 
 #: public/views/statistics.html
 msgid "Time Between Blocks:"
@@ -795,30 +795,30 @@ msgstr "Warte auf Transaktionen..."
 
 #~ msgid ""
 #~ "<strong>insight</strong>  is an <a href=\"http://live.insight.is/\" "
-#~ "target=\"_blank\">open-source Ravencoin blockchain explorer</a> with "
+#~ "target=\"_blank\">open-source Raptoreum blockchain explorer</a> with "
 #~ "complete REST and websocket APIs that can be used for writing web wallets "
 #~ "and other apps  that need more advanced blockchain queries than provided "
-#~ "by ravend RPC.  Check out the <a href=\"https://github.com/underdarkskies/"
+#~ "by raptoreumd RPC.  Check out the <a href=\"https://github.com/Raptor3um/"
 #~ "insight-ui\" target=\"_blank\">source code</a>."
 #~ msgstr ""
 #~ "<strong>insight</strong> ist ein <a href=\"http://live.insight.is/\" "
-#~ "target=\"_blank\">Open Source Ravencoin Blockchain Explorer</a> mit "
+#~ "target=\"_blank\">Open Source Raptoreum Blockchain Explorer</a> mit "
 #~ "vollständigen REST und Websocket APIs um eigene Wallets oder "
 #~ "Applikationen zu implementieren. Hierbei werden fortschrittlichere "
-#~ "Abfragen der Blockchain ermöglicht, bei denen die RPC des Ravencoind "
+#~ "Abfragen der Blockchain ermöglicht, bei denen die RPC des Raptoreumd "
 #~ "nicht mehr ausreichen. Der aktuelle <a href=\"https://github.com/"
-#~ "underdarkskies/insight-ui\" target=\"_blank\">Quellcode</a> ist auf "
+#~ "Raptor3um/insight-ui\" target=\"_blank\">Quellcode</a> ist auf "
 #~ "Github zu finden."
 
 #~ msgid ""
 #~ "<strong>insight</strong> is still in development, so be sure to report "
 #~ "any bugs and provide feedback for improvement at our <a href=\"https://"
-#~ "github.com/underdarkskies/insight/issues\" target=\"_blank\">github issue "
+#~ "github.com/Raptor3um/insight/issues\" target=\"_blank\">github issue "
 #~ "tracker</a>."
 #~ msgstr ""
 #~ "<strong>insight</strong> befindet sich aktuell noch in der Entwicklung. "
 #~ "Bitte sende alle gefundenen Fehler (Bugs) und Feedback zur weiteren "
-#~ "Verbesserung an unseren <a href=\"https://github.com/underdarkskies/"
+#~ "Verbesserung an unseren <a href=\"https://github.com/Raptor3um/"
 #~ "insight-ui/issues\" target=\"_blank\">Github Issue Tracker</a>."
 
 #~ msgid "About"
